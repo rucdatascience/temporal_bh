@@ -1,5 +1,9 @@
 # Hunting Temporal Bumps in Graphs with Dynamic Vertex Properties
 
+These fils are for our paper:
+Yahui Sun, Shuai Ma, and Bin Cui. “Hunting temporal bumps in graphs with dynamic vertex properties.” Proceedings of the 2022 ACM SIGMOD international conference on management of data (2022)
+
+
 The introduction of these files are as follows. 
 
 
