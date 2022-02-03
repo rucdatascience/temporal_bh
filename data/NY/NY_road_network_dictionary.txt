@@ -1,0 +1,15 @@
+intersections_num = 77580 roads_num = 119228
+
+The columns of "NY_road_network_intersections.txt" are "Intersection ID lon lat". For example, 
+"Intersection 0 -73.8786154402 40.8619153015" means that the location (lon lat) of Intersection 0 
+is "-73.8786154402 40.8619153015".
+
+The columns of "NY_road_network_roads.txt" are "Road Intersection_ID_1 Intersection_ID_2 Distance".
+For example, "Road 70271 70272 0.0759936942947" means that the road between intersection 70271
+and intersection 70272 is 0.0759936942947 km.
+
+The columns of "NY_taxi_trip_2015_1_x.txt" are "start_year,start_month,start_day,start_hour(0-23),start_minute(0-59),
+start_intersection,end_year,end_month,end_day,end_hour(0-23),end_minute(0-59),end_intersection". For example, 
+"2015,1,1,19,5,14217,2015,1,1,19,23,5095" means that there is a trip starting from intersection 14217
+at 2015-1-1 19:5, and ending at intersection 5095 at 2015-1-1 19:23.
+

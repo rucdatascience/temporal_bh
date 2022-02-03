@@ -1,0 +1,19 @@
+Community_num = 148873, Keyword_num = 591072, community_keyword_pair_num (dummy_vertex_num) = 1023334
+
+In "Communities.txt", an example line content is "r/phinvest	1000035", 
+which means that the ID of community "r/phinvest" is 1000035.
+
+In "Keywords.txt", an example line content is "personal space	2", 
+which means that the ID of keyword "personal space" is 2.
+
+In "dummy_vertex_IDs.txt", an example line content is "1008668+287955	2247821", 
+which means that the pair of community 1008668 and keyword 287955 has an ID of 2247821.
+
+
+Each comment file, e.g., "Comments_2019_9_1.txt",  records the comment data for a day.
+An example line content in a comment file is "2604152	6_2,7_5", 
+which means that the details of comments corresponding to dummy vertex 2604152 (suppose that 2604152 corresponds to 
+the pair of community X and keyword Y; then these comments are in community X and contain keyword Y) is 6_2,7_5,
+i.e., there are 2 comments in hour 6 and 5 comments in hour 7 (the hour ID is from 0 to 23).
+
+
